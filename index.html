@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/image-criptografia.png">
+    <title>Decodificador de textos</title>
+</head>
+<body>
+    <header class="rodape" id="titulo">D3C0D1F1C4D0R D3 T3XT0S</header>
+    <div class="principal">        
+        <section class="botao__reiniciar">
+            <button onclick="reiniciar()" class="botao" id="reiniciar" 
+            draggable="true" title ="Clique aqui para reiniciar!">
+            </button>
+        </section>
+        <section class="secao__um">
+            <textarea class="secao__um__texto" id="txt" spellcheck="false"
+             placeholder="Digite seu texto aqui.">
+            </textarea>
+            <div class="secao__um__parte__baixo">         
+                <div class="secao__um__parte__baixo__mensagem">
+                    <img src="./assets/exclamacao.svg" alt="Imagem ponto de exclamacao  ">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="secao__um__parte__baixo__botoes">
+                    <button onclick="criptografar()" class="botao" id="criptografar">
+                        Criptografar
+                    </button>
+                    <button onclick="descriptografar()" class="botao" id="descriptografar">
+                        Descriptografar
+                    </button>                
+                </div>               
+            </div>
+        </section>
+        <section class="secao__dois">
+            <textarea class="secao__dois__texto" id="ext" spellcheck="false">                   
+            </textarea>
+            <div class="imagem__sem__texto" id="imagem"></div>
+            <textarea class="secao__dois__mensagem" id="secao__dois__mensagem__sem__texto"
+             spellcheck="false">                
+            </textarea>
+            <textarea class="secao__dois_mensagem__dois" id="secao__dois__mensagem__sem__texto__2"
+             spellcheck="false">
+            </textarea>
+            <button onclick="copiar()" class="botao" id="copiar">
+                Copiar
+            </button>
+        </section>
+    </div>    
+    <footer class="rodape">Desenvolvido por devPablito.</footer>
+    <script src="./app.js" defer></script>
+</body>
+</html>
