@@ -42,9 +42,6 @@
     justify-content: center;
 }
 
-#titulo{
-    font-size: 3rem;
-}
 
 .botao__reiniciar{
     display: flex;
