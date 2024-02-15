@@ -6,6 +6,7 @@ let mensagemSemTexto2 = document.getElementById('secao__dois__mensagem__sem__tex
 let botaoCriptografar = document.getElementById("criptografar");
 let botaoDescriptografar = document.getElementById("descriptografar");
 let botaoCopiar = document.getElementById("copiar");
+txt.value = '';
 
 function possuiLetrasMaiusculas(texto) {
   for (let i = 0; i < texto.length; i++) {
