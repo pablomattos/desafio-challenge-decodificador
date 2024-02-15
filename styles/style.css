@@ -261,8 +261,9 @@
     text-align: center;
     color: var(--cor-quinquenaria);
     border: 0 none;
-    resize: none;
+    outline: 0;
     overflow:hidden;
+    resize: none;
 }
 
 .secao__dois_mensagem__dois{
@@ -276,6 +277,8 @@
     text-align: center;
     color: var(--cor-terciaria);
     border: 0 none;
+    outline: 0;
+    overflow:hidden;
     resize: none;
 }
 
